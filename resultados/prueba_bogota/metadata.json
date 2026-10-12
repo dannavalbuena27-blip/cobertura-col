@@ -1,0 +1,65 @@
+{
+  "zona": "zona_4.700_m74.080",
+  "crs": "EPSG:32618",
+  "forma_pixeles": [
+    299,
+    301
+  ],
+  "resolucion_m": 10.0,
+  "fraccion_observada": 1.0,
+  "escenas": [
+    {
+      "id": "S2B_18NWL_20260810_0_L2A",
+      "fecha": "2026-08-10T15:31:43.841000Z",
+      "nubes_pct": 1.312796,
+      "url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/18/N/WL/2026/8/S2B_18NWL_20260810_0_L2A/B04.tif"
+    },
+    {
+      "id": "S2B_18NXL_20260611_0_L2A",
+      "fecha": "2026-06-11T15:31:39.315000Z",
+      "nubes_pct": 7.894773,
+      "url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/18/N/XL/2026/6/S2B_18NXL_20260611_0_L2A/B04.tif"
+    },
+    {
+      "id": "S2C_18NWL_20260226_0_L2A",
+      "fecha": "2026-02-26T15:31:46.586000Z",
+      "nubes_pct": 16.610695,
+      "url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/18/N/WL/2026/2/S2C_18NWL_20260226_0_L2A/B04.tif"
+    },
+    {
+      "id": "S2B_18NWL_20260611_0_L2A",
+      "fecha": "2026-06-11T15:31:43.025000Z",
+      "nubes_pct": 19.295566,
+      "url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/18/N/WL/2026/6/S2B_18NWL_20260611_0_L2A/B04.tif"
+    },
+    {
+      "id": "S2C_18NXL_20260226_0_L2A",
+      "fecha": "2026-02-26T15:31:42.875000Z",
+      "nubes_pct": 19.479206,
+      "url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/18/N/XL/2026/2/S2C_18NXL_20260226_0_L2A/B04.tif"
+    }
+  ],
+  "modelo": "SegFormer-B0 (DeepGlobe Land Cover)",
+  "modelo_id": "florian-morel22/segformer-b0-deepglobe-land-cover",
+  "clases": [
+    "zona urbana",
+    "agricultura",
+    "pastizal",
+    "bosque",
+    "agua",
+    "terreno desnudo",
+    "sin clasificar"
+  ],
+  "backend": "openvino-gpu",
+  "tiempos_s": {
+    "descarga": 205.4,
+    "inferencia": 0.8
+  },
+  "parametros": {
+    "ventana": 224,
+    "solape": 0.25,
+    "max_nubes_pct": 40.0,
+    "escenas": 5
+  },
+  "fecha_ejecucion": "2026-10-12T16:09:03+00:00"
+}

@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Caches grandes que se regeneran solos en la primera corrida
+modelos_cache/
+cache_experimentos/
+
+# Salidas de GPU/OpenVINO y basura del sistema
+kernel.errors.txt
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/

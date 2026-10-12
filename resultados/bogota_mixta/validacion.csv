@@ -1,0 +1,7 @@
+clase,iou,precision,recall,pixeles_worldcover,pixeles_modelo
+agua,0.0842,0.4224,0.0952,3772,850
+bosque,0.0253,0.3612,0.0265,31476,2312
+cultivos,0.0,0.0,0.0,997,24
+pastizal,0.105,0.5721,0.114,27080,5396
+urbano,0.836,0.8393,0.9954,304350,360936
+desnudo,0.0,,0.0,1843,0

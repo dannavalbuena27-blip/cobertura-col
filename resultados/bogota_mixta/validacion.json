@@ -1,0 +1,64 @@
+{
+  "resumen": {
+    "exactitud_global": 0.8314,
+    "iou_promedio": 0.1751,
+    "pixeles_evaluados": 369518,
+    "cobertura_evaluada_pct": 100.0,
+    "clases_excluidas_modelo": [
+      "sin clasificar"
+    ],
+    "referencia": "ESA WorldCover 10 m v200 (2021)",
+    "modelo": "SegFormer-B0 (DeepGlobe Land Cover)",
+    "nota": "WorldCover es de 2021 y la imagen Sentinel-2 es reciente: parte de la diferencia se debe al cambio real del territorio en ese lapso."
+  },
+  "por_clase": [
+    {
+      "clase": "agua",
+      "iou": 0.0842,
+      "precision": 0.4224,
+      "recall": 0.0952,
+      "pixeles_worldcover": 3772,
+      "pixeles_modelo": 850
+    },
+    {
+      "clase": "bosque",
+      "iou": 0.0253,
+      "precision": 0.3612,
+      "recall": 0.0265,
+      "pixeles_worldcover": 31476,
+      "pixeles_modelo": 2312
+    },
+    {
+      "clase": "cultivos",
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "pixeles_worldcover": 997,
+      "pixeles_modelo": 24
+    },
+    {
+      "clase": "pastizal",
+      "iou": 0.105,
+      "precision": 0.5721,
+      "recall": 0.114,
+      "pixeles_worldcover": 27080,
+      "pixeles_modelo": 5396
+    },
+    {
+      "clase": "urbano",
+      "iou": 0.836,
+      "precision": 0.8393,
+      "recall": 0.9954,
+      "pixeles_worldcover": 304350,
+      "pixeles_modelo": 360936
+    },
+    {
+      "clase": "desnudo",
+      "iou": 0.0,
+      "precision": "",
+      "recall": 0.0,
+      "pixeles_worldcover": 1843,
+      "pixeles_modelo": 0
+    }
+  ]
+}

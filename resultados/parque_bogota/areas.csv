@@ -1,0 +1,11 @@
+clase,pixeles,hectareas,porcentaje
+fondo,0,0.0,0.0
+terreno desnudo,0,0.0,0.0
+pastizal,5632,56.32,9.52
+espacio desarrollado,7292,72.92,12.33
+carretera,245,2.45,0.41
+arbol,674,6.74,1.14
+agua,49,0.49,0.08
+agricultura,0,0.0,0.0
+edificaciones,45268,452.68,76.52
+sin dato (nubes/limites),488,4.88,0.82

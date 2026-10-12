@@ -1,0 +1,62 @@
+[
+  {
+    "clase": "fondo",
+    "pixeles": 0,
+    "hectareas": 0.0,
+    "porcentaje": 0.0
+  },
+  {
+    "clase": "terreno desnudo",
+    "pixeles": 0,
+    "hectareas": 0.0,
+    "porcentaje": 0.0
+  },
+  {
+    "clase": "pastizal",
+    "pixeles": 5632,
+    "hectareas": 56.32,
+    "porcentaje": 9.52
+  },
+  {
+    "clase": "espacio desarrollado",
+    "pixeles": 7292,
+    "hectareas": 72.92,
+    "porcentaje": 12.33
+  },
+  {
+    "clase": "carretera",
+    "pixeles": 245,
+    "hectareas": 2.45,
+    "porcentaje": 0.41
+  },
+  {
+    "clase": "arbol",
+    "pixeles": 674,
+    "hectareas": 6.74,
+    "porcentaje": 1.14
+  },
+  {
+    "clase": "agua",
+    "pixeles": 49,
+    "hectareas": 0.49,
+    "porcentaje": 0.08
+  },
+  {
+    "clase": "agricultura",
+    "pixeles": 0,
+    "hectareas": 0.0,
+    "porcentaje": 0.0
+  },
+  {
+    "clase": "edificaciones",
+    "pixeles": 45268,
+    "hectareas": 452.68,
+    "porcentaje": 76.52
+  },
+  {
+    "clase": "sin dato (nubes/limites)",
+    "pixeles": 488,
+    "hectareas": 4.88,
+    "porcentaje": 0.82
+  }
+]

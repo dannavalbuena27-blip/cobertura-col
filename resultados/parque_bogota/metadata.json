@@ -1,0 +1,68 @@
+{
+  "zona": "parque_bogota",
+  "crs": "EPSG:32618",
+  "forma_pixeles": [
+    233,
+    256
+  ],
+  "resolucion_m": 10.0,
+  "fraccion_observada": 1.0,
+  "escenas": [
+    {
+      "id": "S2B_18NWL_20260810_0_L2A",
+      "fecha": "2026-08-10T15:31:43.841000Z",
+      "nubes_pct": 1.312796,
+      "url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/18/N/WL/2026/8/S2B_18NWL_20260810_0_L2A/B04.tif"
+    },
+    {
+      "id": "S2B_18NXL_20260611_0_L2A",
+      "fecha": "2026-06-11T15:31:39.315000Z",
+      "nubes_pct": 7.894773,
+      "url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/18/N/XL/2026/6/S2B_18NXL_20260611_0_L2A/B04.tif"
+    },
+    {
+      "id": "S2C_18NWL_20260226_0_L2A",
+      "fecha": "2026-02-26T15:31:46.586000Z",
+      "nubes_pct": 16.610695,
+      "url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/18/N/WL/2026/2/S2C_18NWL_20260226_0_L2A/B04.tif"
+    },
+    {
+      "id": "S2B_18NWL_20260611_0_L2A",
+      "fecha": "2026-06-11T15:31:43.025000Z",
+      "nubes_pct": 19.295566,
+      "url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/18/N/WL/2026/6/S2B_18NWL_20260611_0_L2A/B04.tif"
+    },
+    {
+      "id": "S2C_18NXL_20260226_0_L2A",
+      "fecha": "2026-02-26T15:31:42.875000Z",
+      "nubes_pct": 19.479206,
+      "url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/18/N/XL/2026/2/S2C_18NXL_20260226_0_L2A/B04.tif"
+    }
+  ],
+  "modelo": "SegFormer-B4 (landcover 9 clases)",
+  "modelo_id": "nave1616/SegFormer-landcover-FT",
+  "clases": [
+    "fondo",
+    "terreno desnudo",
+    "pastizal",
+    "espacio desarrollado",
+    "carretera",
+    "arbol",
+    "agua",
+    "agricultura",
+    "edificaciones"
+  ],
+  "backend": "pytorch-cpu",
+  "tiempos_s": {
+    "descarga": 48.0,
+    "inferencia": 1.3
+  },
+  "parametros": {
+    "ventana": 224,
+    "solape": 0.25,
+    "gamma": 0.6,
+    "max_nubes_pct": 40.0,
+    "escenas": 5
+  },
+  "fecha_ejecucion": "2026-10-12T17:24:18+00:00"
+}

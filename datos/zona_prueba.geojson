@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "nombre": "Parque Simon Bolivar (prueba)" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-74.0850, 4.6450],
+            [-74.0620, 4.6450],
+            [-74.0620, 4.6660],
+            [-74.0850, 4.6660],
+            [-74.0850, 4.6450]
+          ]
+        ]
+      }
+    }
+  ]
+}

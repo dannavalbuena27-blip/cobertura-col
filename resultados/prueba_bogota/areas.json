@@ -1,0 +1,50 @@
+[
+  {
+    "clase": "zona urbana",
+    "pixeles": 69793,
+    "hectareas": 697.93,
+    "porcentaje": 99.15
+  },
+  {
+    "clase": "agricultura",
+    "pixeles": 538,
+    "hectareas": 5.38,
+    "porcentaje": 0.76
+  },
+  {
+    "clase": "pastizal",
+    "pixeles": 60,
+    "hectareas": 0.6,
+    "porcentaje": 0.09
+  },
+  {
+    "clase": "bosque",
+    "pixeles": 0,
+    "hectareas": 0.0,
+    "porcentaje": 0.0
+  },
+  {
+    "clase": "agua",
+    "pixeles": 0,
+    "hectareas": 0.0,
+    "porcentaje": 0.0
+  },
+  {
+    "clase": "terreno desnudo",
+    "pixeles": 0,
+    "hectareas": 0.0,
+    "porcentaje": 0.0
+  },
+  {
+    "clase": "sin clasificar",
+    "pixeles": 0,
+    "hectareas": 0.0,
+    "porcentaje": 0.0
+  },
+  {
+    "clase": "sin dato (nubes/limites)",
+    "pixeles": 19608,
+    "hectareas": 196.08,
+    "porcentaje": 21.79
+  }
+]
